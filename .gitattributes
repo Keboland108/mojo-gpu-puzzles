@@ -2,3 +2,6 @@
 pixi.lock merge=binary linguist-language=YAML linguist-generated=true
 
 magic.lock merge=binary linguist-language=YAML linguist-generated=true
+
+# Always check out shell scripts with LF endings so they run under bash
+*.sh text eol=lf
